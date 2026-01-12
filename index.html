@@ -477,7 +477,7 @@
                     <input type="hidden" name="_subject" value="New message from Portfolio Website">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_next" value="#contact?success=true">
+                    <input type="hidden" name="_next" id="formNextUrl" value="">
                     <input type="hidden" name="_autoresponse" value="Thank you for contacting me! I have received your message and will get back to you soon.">
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -517,5 +517,14 @@
     <script src="js/circuit-nodes.js"></script>
     <script src="js/effects.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        // Set the _next URL dynamically to current page URL
+        document.addEventListener('DOMContentLoaded', function() {
+            const nextUrlField = document.getElementById('formNextUrl');
+            if (nextUrlField) {
+                nextUrlField.value = window.location.origin + window.location.pathname + '#contact?success=true';
+            }
+        });
+    </script>
 </body>
 </html>
