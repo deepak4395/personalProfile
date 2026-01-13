@@ -704,7 +704,7 @@ Personal/
 │   │   ├── project1.jpg   # Project screenshots
 │   │   ├── project2.jpg
 │   │   └── project3.jpg
-│   └── Resume_Chandramauli_Gupta.pdf  # Downloadable resume
+│   └── Resume_Deepak_Singhal.pdf  # Downloadable resume
 └── README.md              # This file
 ```
 
@@ -842,17 +842,6 @@ The contact form currently shows an alert. To make it functional:
 ## 📄 License
 
 This project is open source and available for personal use.
-
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your own portfolio!
-
-## 📞 Contact
-
-- **Email**: your.email@example.com
-- **LinkedIn**: linkedin.com/in/chandramauli-gupta
-- **GitHub**: github.com/sarcasticrobo
-
 ---
 
-Built with ❤️ by Chandramauli Gupta
+Built with ❤️ by Deepak Singhal
